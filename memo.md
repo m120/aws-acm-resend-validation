@@ -10,5 +10,5 @@ $ aws --prof "{profile}" acm list-certificates --certificate-statuses PENDING_VA
 
 -  resend-validation-email
 ```Shell
-aws --prof "{profile}" acm resend-validation-email --certificate-arn "{CERT-ARN}" --domain "{DOMAIN}" --validation-domain "{DOMAIN}"
+$ aws --prof "{profile}" acm resend-validation-email --certificate-arn "{CERT-ARN}" --domain "{DOMAIN}" --validation-domain "{DOMAIN}"
 ```
